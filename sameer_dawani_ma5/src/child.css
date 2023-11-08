@@ -1,0 +1,37 @@
+/* .box{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+} */
+
+/* Grid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+  }
+  
+  .box {
+    color: black;
+    padding: 40px;
+    text-align: center;
+    height: 100px;
+    border: 1px solid grey;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .on {
+    background-color: black;
+  }
+  
+  
+  
+  
+  
